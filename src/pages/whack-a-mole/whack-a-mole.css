@@ -1,0 +1,90 @@
+.containMain{
+    height: 100svh;
+    /* background-color: black; */
+    cursor: none;
+    overflow: hidden;
+}
+
+.imgJacob{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top:100px;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+.botonInicio{
+    cursor: none;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+
+.cursorimg{
+    position: absolute;
+    height: 100px;
+    z-index: 2;
+    transform: translate(-10px, -40px);
+    pointer-events: none;
+}
+
+.imgcarcel{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999999999999;
+}
+
+.btnPlay{
+    cursor: none;
+    display: block;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 300px;
+    left: 40%;
+    font-size: 40px;
+    background-color: rgba(101, 202, 101, 0.758);
+    border-radius: 10px;
+}
+
+.btnStop{
+    display: none;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    font-size: 20px;
+    background-color: rgba(200, 72, 72, 0.724);
+    border-radius: 10px;
+    cursor: none;
+}
+
+.score{
+    position: absolute;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    bottom: 150px;
+    right: 40px;
+    font-size: 40px;
+    color: rgb(133, 132, 132);
+    font-weight: 100;
+}
+
+@keyframes hit {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-30deg);
+    };
+};
+
+
+

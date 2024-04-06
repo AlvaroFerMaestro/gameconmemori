@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "mifuente";
+    src: url("fuentes/KarmaFuture.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "mifuente";
+    box-sizing: border-box;
+}
+
